@@ -1,0 +1,45 @@
+table{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+}
+
+table, td, th{
+    border: 1px solid black;
+   border-collapse: collapse;
+}
+#stroca8 {
+    background-color: lightgrey;
+    color: green;
+}
+.stroca1{
+    background-color: peru;
+}
+.stroca2{
+    background-color: lightgreen;
+}
+.stroca3{
+    background-color: yellow;
+}
+td :last-child {
+    background-color: orangered;
+}
+table, td, th, tr{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+   padding-bottom: 15px;
+}
+tr :last-child{
+    background-color: peru;
+}
+th :first-child{
+    background-color: lightgreen;
+}
+.feed{
+    text-align: center;
+    font-size: 2em;
+}
+th{
+    font-size: 1.3em;
+}
